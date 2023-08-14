@@ -1,0 +1,48 @@
+---
+title: Learning to type, again
+date: 2023/8/14
+description: The pain was worth it.
+tag: Productivity
+author: Alex Chau
+---
+
+I believe spending time improving the efficiency and speed of your workflow is just as important as your work itself.
+
+As a programmer (and in many other professions), I spend the vast amount of my time in-front of a keyboard, so why not optimise my typing?
+
+This is why last month I picked up a Lily58 mechanical keyboard.
+
+Insert image here
+
+This keyboard is described as a split 6x4 column staggered ortholinear grid with a 4 key thumb cluster. 
+
+You may not know what any of that means right now but I'll be getting into why these features are so good.
+
+## The Split
+
+A split keyboard allows you to position each half of the keyboard shoulder width apart, eliminating ulnar deviation (your wrists pointing outwards) and reducing shoulder tension.
+
+## Ortholinear
+
+The idea of an ortholinear layout rather than the common staggered layout is simple biomechanics,
+your fingers extend up and down, so the keys should also be directly ontop of one another.
+
+## Thumb clusters
+
+On a standard keyboard, both of your thumbs are resigned to pressing the space bar, this is a huge inefficiency.
+The thumb cluster allows you to map common keys such as Backspace and Enter without moving your hand from the home row.
+
+## The Learning process
+
+It took a week or so to get accustomed to the keyboard, On the first day I was averaging 7WPM (Words Per Minute) which is horrible considering
+on a standard keyboard I can type at about 120WPM. I realised that I had to completely rewire my brain and unlearn all of the bad typing habits
+I had developed over many years. 
+
+For the next week I religiously practiced for 2-3 hours a day on [TypingClub](https://www.typingclub.com/) and this really helped hammer-in proper typing practices and
+keeping your fingers on the home row, I'd highly recommend this resource for anyone looking to improve their typing speed and touch typing.
+
+## My thoughts a month later
+
+Now that I'm fairly accustomed to using the Lily58, I can say for sure that it has improved my typing and removed any pains accrued from sitting at a keyboard for 12+ hours a day.
+
+Stay **Blazingly** fast.
