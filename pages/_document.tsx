@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: 'alexchau.co.uk',
     description: "Alex Chau's software engineering blog",
-    image: 'https://alexchau.co.uk/api/static',
+    image: 'https://alexchau.co.uk/api/og',
   }
 
   return (
