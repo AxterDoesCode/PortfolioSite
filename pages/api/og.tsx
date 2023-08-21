@@ -13,7 +13,7 @@ export default function handler(request: NextRequest) {
     const hasTitle = searchParams.has('title');
     const title = hasTitle
       ? searchParams.get('title')?.slice(0, 100)
-      : 'My default title';
+      : "Alex Chau's blog";
  
     return new ImageResponse(
       (
