@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-
+//Head from next/document persists across all pages, if you want dynamic head then use theme.config.js
 export default function Document() {
     const meta = {
         title: 'alexchau.co.uk',

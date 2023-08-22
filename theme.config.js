@@ -2,11 +2,11 @@ import { useBlogContext } from 'nextra-theme-blog'
 
 export default {
     darkMode: true,
+    //Dynamic meta tag depending on the frontmatter of the page. Done via useBlogContext
     head: () => {
         const frontmatter = useBlogContext()
         let title = frontmatter.opts.title
-        let titleArr = title.split(" ")
-        title = titleArr.join("%20")
+        title = title.split(" ").join("%20")
         return (
             <>
                 <meta property="og:image" content={`https://alexchau.co.uk/api/og?title=${title}`} />
