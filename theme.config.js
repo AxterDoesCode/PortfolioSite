@@ -8,7 +8,9 @@ export default {
         let titleArr = title.split(" ")
         title = titleArr.join("%20")
         return (
-            <meta property="og:image" content={`https://alexchau.co.uk/api/og?title=${title}`} />
+            <>
+                <meta property="og:image" content={`https://alexchau.co.uk/api/og?title=${title}`} />
+            </>
         )
     },
     footer: (<div className="my-14  border-t-2  mx-auto flex items-center sm:flex-row flex-col">
