@@ -5,6 +5,8 @@ export default {
     head: () => {
         const frontmatter = useBlogContext()
         let title = frontmatter.opts.title
+        titleArr = title.split(" ")
+        title = titleArr.join("%20")
         return (
             <meta property="og:image" content={`https://alexchau.co.uk/api/og?title=${title}`} />
         )
