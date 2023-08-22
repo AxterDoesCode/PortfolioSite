@@ -20,8 +20,8 @@ export default function handler(request: NextRequest) {
             (
                 <div
                     style={{
-                        backgroundColor: cp.Base,
-                        backgroundSize: '150px 150px',
+                        backgroundSize: '1200px 630px',
+                        backgroundImage: `url(https://github.com/AxterDoesCode/PortfolioSite/blob/master/public/images/bg.png)`,
                         height: '100%',
                         width: '100%',
                         display: 'flex',
@@ -34,30 +34,10 @@ export default function handler(request: NextRequest) {
                 >
                     <div
                         style={{
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            justifyItems: 'center',
-                        }}
-                    >
-                        <img
-                            alt="Axtr Profile Image"
-                            height={232}
-                            src="https://github.com/AxterDoesCode.png"
-                            style={{ 
-                                margin: '0 30px',
-                                borderRadius: "50%"
-                            }}
-                            width={232}
-                        />
-                    </div>
-                    <div
-                        style={{
-                            fontSize: 60,
-                            fontStyle: 'normal',
+                            fontSize: "6rem",
+                            fontStyle: 'bold',
                             letterSpacing: '-0.025em',
                             color: cp.Text,
-                            marginTop: 30,
                             padding: '0 120px',
                             lineHeight: 1.4,
                             whiteSpace: 'pre-wrap',
