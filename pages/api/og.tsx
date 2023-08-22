@@ -17,7 +17,7 @@ export default async function handler(request: NextRequest) {
             : "Alex Chau's blog";
 
         const fontData = await fetch(
-            new URL('../../public/fonts/JetBrainsMonoNerdFont-Bold.ttf', import.meta.url),
+            new URL('../../public/fonts/JetBrainsMonoNerdFont-Regular.ttf', import.meta.url),
         ).then((res) => res.arrayBuffer());
         return new ImageResponse(
             (
