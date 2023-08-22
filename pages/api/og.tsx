@@ -34,12 +34,12 @@ export default function handler(request: NextRequest) {
                 >
                     <div
                         style={{
-                            fontSize: "6rem",
+                            fontSize: "5rem",
                             fontStyle: 'bold',
                             letterSpacing: '-0.025em',
                             color: cp.Text,
                             padding: '0 120px',
-                            lineHeight: 1.4,
+                            lineHeight: 1,
                             whiteSpace: 'pre-wrap',
                         }}
                     >
