@@ -1,5 +1,6 @@
 import { ImageResponse } from '@vercel/og';
 import { NextRequest } from 'next/server';
+import { mocha as cp} from '../../public/colors/mocha'
 
 export const config = {
     runtime: 'edge',
@@ -19,7 +20,7 @@ export default function handler(request: NextRequest) {
             (
                 <div
                     style={{
-                        backgroundColor: '#1e1e2e',
+                        backgroundColor: cp.Base,
                         backgroundSize: '150px 150px',
                         height: '100%',
                         width: '100%',
@@ -55,7 +56,7 @@ export default function handler(request: NextRequest) {
                             fontSize: 60,
                             fontStyle: 'normal',
                             letterSpacing: '-0.025em',
-                            color: '#cdd6f4',
+                            color: cp.Text,
                             marginTop: 30,
                             padding: '0 120px',
                             lineHeight: 1.4,
