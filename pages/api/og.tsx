@@ -41,15 +41,18 @@ export default async function handler(request: NextRequest) {
                         style={{
                             display: 'flex',
                             width: '85%',
-                            height: '70%',
+                            height: '69%',
                             alignItems: 'flex-start',
-                            justifyContent: 'flex-start',
-                            padding: '0 50px 0 24px',
+                            justifyContent: 'center',
+                            padding: '24px 24px 24px 40px',
+                            textAlign: 'left',
                         }}
                     >
                         <h1
                             style={{
                                 margin: 0,
+                                width: '100%',
+                                height: '88%',
                                 fontSize: "5rem",
                                 fontFamily: '"JetBrainsMonoNerd"',
                                 fontWeight: '700',
