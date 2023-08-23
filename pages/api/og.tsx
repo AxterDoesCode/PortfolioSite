@@ -25,7 +25,7 @@ export default async function handler(request: NextRequest) {
                 <div
                     style={{
                         backgroundSize: '1200px 630px',
-                        backgroundImage: `url(https://github.com/AxterDoesCode/PortfolioSite/blob/master/public/images/bg2.png?raw=true)`,
+                        backgroundImage: `url(https://github.com/AxterDoesCode/PortfolioSite/blob/master/public/images/bg.png?raw=true)`,
                         height: '100%',
                         width: '100%',
                         display: 'flex',
@@ -43,7 +43,7 @@ export default async function handler(request: NextRequest) {
                             width: '85%',
                             height: '70%',
                             alignItems: 'flex-start',
-                            justifyContent: 'center',
+                            justifyContent: 'flex-start',
                             padding: '0 50px 0 24px',
                             textAlign: 'left'
                         }}
