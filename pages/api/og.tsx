@@ -40,11 +40,11 @@ export default async function handler(request: NextRequest) {
                     <div
                         style={{
                             display: 'flex',
-                            width: '85%',
+                            width: '84%',
                             height: '69%',
                             alignItems: 'flex-start',
                             justifyContent: 'center',
-                            padding: '24px 24px 24px 40px',
+                            padding: '24px 24px 24px 42px',
                             textAlign: 'left',
                         }}
                     >
