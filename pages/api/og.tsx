@@ -42,8 +42,6 @@ export default async function handler(request: NextRequest) {
                             display: 'flex',
                             width: '84%',
                             height: '69%',
-                            alignItems: 'flex-start',
-                            justifyContent: 'center',
                             padding: '24px 24px 24px 45px',
                             textAlign: 'left',
                         }}
@@ -51,8 +49,6 @@ export default async function handler(request: NextRequest) {
                         <h1
                             style={{
                                 margin: 0,
-                                width: '100%',
-                                height: '88%',
                                 fontSize: "4.5rem",
                                 fontFamily: '"JetBrainsMonoNerd"',
                                 fontWeight: '700',
