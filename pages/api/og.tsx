@@ -43,7 +43,9 @@ export default async function handler(request: NextRequest) {
                             width: '85%',
                             height: '70%',
                             alignItems: 'flex-start',
-                            justifyContent: 'flex-start',
+                            justifyContent: 'center',
+                            padding: '0 50px 0 24px',
+                            textAlign: 'left'
                         }}
                     >
                         <h1
@@ -54,7 +56,6 @@ export default async function handler(request: NextRequest) {
                                 fontWeight: '700',
                                 letterSpacing: '-0.025em',
                                 color: cp.Text,
-                                border: '1px solid red',
                                 lineHeight: 1,
                                 whiteSpace: 'pre-wrap',
                             }}
