@@ -19,12 +19,13 @@ export default async function handler(request: NextRequest) {
         const fontData = await fetch(
             new URL('../../public/fonts/JetBrainsMonoNerdFont-Regular.ttf', import.meta.url),
         ).then((res) => res.arrayBuffer());
+
         return new ImageResponse(
             (
                 <div
                     style={{
                         backgroundSize: '1200px 630px',
-                        backgroundImage: `url(https://github.com/AxterDoesCode/PortfolioSite/blob/master/public/images/bg.png?raw=true)`,
+                        backgroundImage: `url(https://github.com/AxterDoesCode/PortfolioSite/blob/master/public/images/bg2.png?raw=true)`,
                         height: '100%',
                         width: '100%',
                         display: 'flex',
@@ -33,22 +34,34 @@ export default async function handler(request: NextRequest) {
                         justifyContent: 'center',
                         flexDirection: 'column',
                         flexWrap: 'nowrap',
+                        paddingTop: `39px`,
                     }}
                 >
-                    <h1
+                    <div
                         style={{
-                            fontSize: "5rem",
-                            fontFamily: '"JetBrainsMonoNerd"',
-                            fontWeight: '700',
-                            letterSpacing: '-0.025em',
-                            color: cp.Text,
-                            padding: '0 120px',
-                            lineHeight: 1,
-                            whiteSpace: 'pre-wrap',
+                            display: 'flex',
+                            width: '85%',
+                            height: '70%',
+                            alignItems: 'flex-start',
+                            justifyContent: 'flex-start',
                         }}
                     >
-                        {title}
-                    </h1>
+                        <h1
+                            style={{
+                                margin: 0,
+                                fontSize: "5rem",
+                                fontFamily: '"JetBrainsMonoNerd"',
+                                fontWeight: '700',
+                                letterSpacing: '-0.025em',
+                                color: cp.Text,
+                                border: '1px solid red',
+                                lineHeight: 1,
+                                whiteSpace: 'pre-wrap',
+                            }}
+                        >
+                            {title}
+                        </h1>
+                    </div>
                 </div>
             ),
             {
