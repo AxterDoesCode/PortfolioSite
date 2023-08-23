@@ -44,7 +44,7 @@ export default async function handler(request: NextRequest) {
                             height: '70%',
                             alignItems: 'flex-start',
                             justifyContent: 'flex-start',
-                            padding: '50px 50px 0 24px',
+                            padding: '0 50px 0 24px',
                             textAlign: 'left'
                         }}
                     >
