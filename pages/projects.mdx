@@ -17,7 +17,42 @@ import Image from 'next/image'
 />
 <p style = {{
     margin: 0,
-}}> A lightweight Gmail client for the terminal, written in Go. [Github](https://github.com/AxterDoesCode/tmail)</p>
-Have you ever wanted to write an email from your terminal? No? Well I did it anyways.
+}}> A lightweight Gmail client for the terminal, written in Go. [Github ↗](https://github.com/AxterDoesCode/tmail)</p>
+
+Leveraged the Google Workspace Gmail API to execute a range of CRUD operations,
+complementing this approach with a smart caching system designed to minimize the required number of asynchronous calls.
+(Circumventing reaching Google's rate limit under strenuous use).
+For the terminal-based frontend I used [gocui](https://github.com/awesome-gocui/gocui).
 
 ## ColdWallet - An Ethereum Hardware Wallet
+
+<Image
+  src="/images/coldwalletdevice.jpg"
+  alt="Photo of esp32"
+  width={400}
+  height={300}
+  priority
+  style = {{
+    margin: "0 auto",
+  }}
+  className="next-image"
+/>
+
+<Image
+  src="/images/coldwallet.png"
+  alt="Photo of desktop app"
+  width={1125}
+  height={750}
+  priority
+  className="next-image"
+/>
+
+<p style = {{
+    margin: 0,
+}}> A project built for my second year software engineering project.</p>
+
+For the frontend, we utilized Wails with JS/React, complemented by a robust Go backend. The primary hardware platform employed was the M5Stick (ESP32), and the coding was done in Arduino/C++.
+
+The firmware served a dual purpose: it generated a BIP39 seed phrase and facilitated the creation of multiple secure cryptocurrency wallets. These wallets were safeguarded with PIN security and offered the option to recover them using a seed phrase.
+
+Additionally, the desktop application provided several features, including the ability to check current Ethereum prices, reset wallets, and perform ETH transactions, both sending and receiving."
