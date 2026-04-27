@@ -20,12 +20,14 @@ export default async function handler(request: NextRequest) {
             new URL('../../public/fonts/JetBrainsMonoNerdFont-Regular.ttf', import.meta.url),
         ).then((res) => res.arrayBuffer());
 
+        const bgUrl = new URL('/images/bg.png', request.url).toString();
+
         return new ImageResponse(
             (
                 <div
                     style={{
                         backgroundSize: '1200px 630px',
-                        backgroundImage: `url(https://github.com/AxterDoesCode/PortfolioSite/blob/master/public/images/bg.png?raw=true)`,
+                        backgroundImage: `url(${bgUrl})`,
                         height: '100%',
                         width: '100%',
                         display: 'flex',
