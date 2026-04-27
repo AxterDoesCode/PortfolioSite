@@ -1,27 +1,23 @@
 {
+  "name": "portfolio-site",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "node ./scripts/gen-rss.js && next build",
+    "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "@vercel/og": "0.6.5",
-    "gray-matter": "4.0.3",
-    "next": "14.2.35",
-    "nextra": "2.13.4",
-    "nextra-theme-blog": "2.13.4",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "rss": "1.2.2"
+    "next": "16.0.11",
+    "nextra": "4.6.1",
+    "nextra-theme-blog": "4.6.1",
+    "react": "19.2.5",
+    "react-dom": "19.2.5"
   },
   "devDependencies": {
     "@types/node": "20.19.0",
-    "@types/react": "18.3.12",
-    "@types/react-dom": "18.3.1",
-    "autoprefixer": "10.4.20",
-    "postcss": "8.4.49",
-    "tailwindcss": "3.4.17",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
     "typescript": "5.7.2"
   }
 }
